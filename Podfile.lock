@@ -16,6 +16,9 @@ PODS:
     - FBSDKCoreKit/arc
   - FBSDKLoginKit (4.7.1):
     - FBSDKCoreKit
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
   - Parse (1.9.1):
     - Bolts/Tasks (>= 1.4.0)
   - ParseFacebookUtilsV4 (1.9.0):
@@ -28,6 +31,7 @@ PODS:
     - Parse (~> 1.9)
 
 DEPENDENCIES:
+  - JSQMessagesViewController
   - Parse (~> 1.9)
   - ParseFacebookUtilsV4 (~> 1.9)
   - ParseTwitterUtils (~> 1.9)
@@ -36,6 +40,8 @@ SPEC CHECKSUMS:
   Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
   FBSDKCoreKit: 9141b70960a37930850370495fe565f4a27ac141
   FBSDKLoginKit: c11ed3c2833472db3bb4a4aecf27af4a6f69b173
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
   ParseFacebookUtilsV4: aadebfaaaf4a45bf0a0992863bf48c8fc49189e3
   ParseTwitterUtils: 0155d1a4e388690aa5d80405a586474e66606968
