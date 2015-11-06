@@ -29,12 +29,14 @@ PODS:
   - ParseTwitterUtils (1.9.0):
     - Bolts/Tasks (>= 1.3.0)
     - Parse (~> 1.9)
+  - pop (1.0.8)
 
 DEPENDENCIES:
   - JSQMessagesViewController
   - Parse (~> 1.9)
   - ParseFacebookUtilsV4 (~> 1.9)
   - ParseTwitterUtils (~> 1.9)
+  - pop (~> 1.0)
 
 SPEC CHECKSUMS:
   Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
@@ -45,5 +47,6 @@ SPEC CHECKSUMS:
   Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
   ParseFacebookUtilsV4: aadebfaaaf4a45bf0a0992863bf48c8fc49189e3
   ParseTwitterUtils: 0155d1a4e388690aa5d80405a586474e66606968
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

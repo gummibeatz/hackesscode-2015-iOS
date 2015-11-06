@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId("eLoGV9j7mVoQeUzjY0Uq8rr4nNrYyRrGRiJ8FdMt",
             clientKey: "sbNHPVYtOGxkQduV8Cu37mP7AR6MQrtwkzf4dqqm")
         
-        Contact.registerSubclass()
+        User.registerSubclass()
         
         //
         // If you are using Facebook, uncomment and add your FacebookAppID to your bundle's plist as

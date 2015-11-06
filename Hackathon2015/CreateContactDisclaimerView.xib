@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CreateContactDisclaimerView" customModule="Hackathon2015" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="222"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have chosen to become a contact " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0r-NM-Jsv">
+                    <rect key="frame" x="0.0" y="57" width="326" height="58"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqi-Hg-tw9" customClass="UnderlineButton" customModule="Hackathon2015" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="181" width="99" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="continue ">
+                        <color key="titleColor" red="0.063486426770000007" green="0.063486426770000007" blue="0.063486426770000007" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="continueButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Luf-5C-jPm"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome 👋🏾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhs-Um-cEa">
+                    <rect key="frame" x="0.0" y="0.0" width="257" height="57"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kqi-Hg-tw9" firstAttribute="top" secondItem="n0r-NM-Jsv" secondAttribute="bottom" constant="66.5" id="3pX-1T-Cch"/>
+                <constraint firstItem="Kqi-Hg-tw9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6Ee-fd-Ocp"/>
+                <constraint firstItem="n0r-NM-Jsv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6Mw-7F-z9Y"/>
+                <constraint firstAttribute="trailing" secondItem="n0r-NM-Jsv" secondAttribute="trailing" id="8aI-M1-XYb"/>
+                <constraint firstItem="n0r-NM-Jsv" firstAttribute="top" secondItem="Xhs-Um-cEa" secondAttribute="bottom" id="NvV-Cq-aEy"/>
+                <constraint firstItem="Xhs-Um-cEa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="O9b-2C-uks"/>
+                <constraint firstItem="Xhs-Um-cEa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P8t-6K-u54"/>
+                <constraint firstItem="Kqi-Hg-tw9" firstAttribute="top" secondItem="n0r-NM-Jsv" secondAttribute="bottom" constant="66" id="gaC-ni-Qzx"/>
+                <constraint firstItem="n0r-NM-Jsv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="57" id="l7t-py-hh7"/>
+                <constraint firstAttribute="bottom" secondItem="Kqi-Hg-tw9" secondAttribute="bottom" id="vlB-wo-SaR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="gaC-ni-Qzx"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bodyLabel" destination="n0r-NM-Jsv" id="SHg-Qu-xwO"/>
+                <outlet property="continueButton" destination="Kqi-Hg-tw9" id="nhh-2m-LCg"/>
+                <outlet property="titleLabel" destination="Xhs-Um-cEa" id="nMB-VK-Ngt"/>
+            </connections>
+            <point key="canvasLocation" x="39" y="177"/>
+        </view>
+    </objects>
+</document>

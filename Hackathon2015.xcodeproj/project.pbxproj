@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D184FC31BE543FA0036D8F8 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D184FC21BE543FA0036D8F8 /* DesignableImageView.swift */; };
-		8D184FC51BE5598F0036D8F8 /* CreateMentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D184FC41BE5598F0036D8F8 /* CreateMentorViewController.swift */; };
+		8D3E1E541BEC6CAD0028073C /* ChooseDestinationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E1E531BEC6CAD0028073C /* ChooseDestinationView.xib */; };
 		8D5B0BA91BE51825005EC9AE /* UnderlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B0BA81BE51825005EC9AE /* UnderlineButton.swift */; };
 		8D6AE42A1BE4129E00D74C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6AE4291BE4129E00D74C26 /* AppDelegate.swift */; };
 		8D6AE42C1BE4129E00D74C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6AE42B1BE4129E00D74C26 /* ViewController.swift */; };
@@ -18,8 +18,18 @@
 		8D6AE4371BE4129E00D74C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6AE4351BE4129E00D74C26 /* LaunchScreen.storyboard */; };
 		8D6AE4421BE4129E00D74C26 /* Hackathon2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6AE4411BE4129E00D74C26 /* Hackathon2015Tests.swift */; };
 		8D6AE44D1BE4129E00D74C26 /* Hackathon2015UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6AE44C1BE4129E00D74C26 /* Hackathon2015UITests.swift */; };
-		8DF929941BE57BA700ED5BFB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF929931BE57BA700ED5BFB /* Contact.swift */; };
-		FAB337A37E73100F32D84468 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C98B0E3779049696A0969E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D6BD8A01BEC6C3200F21E4C /* ChooseDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD89F1BEC6C3200F21E4C /* ChooseDestinationView.swift */; };
+		8D82DF7A1BE684A200B49CBE /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82DF791BE684A200B49CBE /* UserProfileViewController.swift */; };
+		8D82DF7C1BE684AB00B49CBE /* ContactProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82DF7B1BE684AB00B49CBE /* ContactProfileViewController.swift */; };
+		8D82DF7E1BE684EE00B49CBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82DF7D1BE684EE00B49CBE /* User.swift */; };
+		8DB711BE1BE70C3000608B8B /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB711BD1BE70C3000608B8B /* CreateContactViewController.swift */; };
+		8DB711C01BE70EB600608B8B /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB711BF1BE70EB600608B8B /* TransitionAnimator.swift */; };
+		8DB711C21BE719C200608B8B /* CreateContactDisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB711C11BE719C200608B8B /* CreateContactDisclaimerView.swift */; };
+		8DB711C51BE719F800608B8B /* CreateContactDisclaimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB711C41BE719F800608B8B /* CreateContactDisclaimerView.xib */; };
+		8DB711C71BE71AE100608B8B /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB711C61BE71AE100608B8B /* UIView+Xib.swift */; };
+		8DB711C91BE71F0200608B8B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB711C81BE71F0200608B8B /* DesignableView.swift */; };
+		8DC818411BE97B05000510D9 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC818401BE97B05000510D9 /* AnimationView.swift */; };
+		FAB337A37E73100F32D84468 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C98B0E3779049696A0969E /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +52,7 @@
 /* Begin PBXFileReference section */
 		62F7FCBBBFD0AB75397E854F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8D184FC21BE543FA0036D8F8 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
-		8D184FC41BE5598F0036D8F8 /* CreateMentorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMentorViewController.swift; sourceTree = "<group>"; };
+		8D3E1E531BEC6CAD0028073C /* ChooseDestinationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseDestinationView.xib; sourceTree = "<group>"; };
 		8D5B0BA81BE51825005EC9AE /* UnderlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineButton.swift; sourceTree = "<group>"; };
 		8D6AE4261BE4129E00D74C26 /* Hackathon2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6AE4291BE4129E00D74C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +68,17 @@
 		8D6AE4481BE4129E00D74C26 /* Hackathon2015UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackathon2015UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6AE44C1BE4129E00D74C26 /* Hackathon2015UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon2015UITests.swift; sourceTree = "<group>"; };
 		8D6AE44E1BE4129E00D74C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DF929931BE57BA700ED5BFB /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8D6BD89F1BEC6C3200F21E4C /* ChooseDestinationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDestinationView.swift; sourceTree = "<group>"; };
+		8D82DF791BE684A200B49CBE /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		8D82DF7B1BE684AB00B49CBE /* ContactProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactProfileViewController.swift; sourceTree = "<group>"; };
+		8D82DF7D1BE684EE00B49CBE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8DB711BD1BE70C3000608B8B /* CreateContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContactViewController.swift; sourceTree = "<group>"; };
+		8DB711BF1BE70EB600608B8B /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		8DB711C11BE719C200608B8B /* CreateContactDisclaimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContactDisclaimerView.swift; sourceTree = "<group>"; };
+		8DB711C41BE719F800608B8B /* CreateContactDisclaimerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateContactDisclaimerView.xib; sourceTree = "<group>"; };
+		8DB711C61BE71AE100608B8B /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		8DB711C81BE71F0200608B8B /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		8DC818401BE97B05000510D9 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		C1BFB6F3F133D6CDCA001A02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4C98B0E3779049696A0969E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +122,7 @@
 			children = (
 				8D5B0BA81BE51825005EC9AE /* UnderlineButton.swift */,
 				8D184FC21BE543FA0036D8F8 /* DesignableImageView.swift */,
+				8DB711C81BE71F0200608B8B /* DesignableView.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -131,16 +152,24 @@
 		8D6AE4281BE4129E00D74C26 /* Hackathon2015 */ = {
 			isa = PBXGroup;
 			children = (
+				8D6AE42D1BE4129E00D74C26 /* Main.storyboard */,
 				8D6AE4291BE4129E00D74C26 /* AppDelegate.swift */,
 				8D6AE42B1BE4129E00D74C26 /* ViewController.swift */,
-				8D184FC41BE5598F0036D8F8 /* CreateMentorViewController.swift */,
-				8DF929931BE57BA700ED5BFB /* Contact.swift */,
-				8D6AE42D1BE4129E00D74C26 /* Main.storyboard */,
+				8DB711BD1BE70C3000608B8B /* CreateContactViewController.swift */,
+				8D82DF791BE684A200B49CBE /* UserProfileViewController.swift */,
+				8D82DF7B1BE684AB00B49CBE /* ContactProfileViewController.swift */,
+				8D82DF7D1BE684EE00B49CBE /* User.swift */,
+				8D6BD89F1BEC6C3200F21E4C /* ChooseDestinationView.swift */,
+				8D3E1E531BEC6CAD0028073C /* ChooseDestinationView.xib */,
+				8DB711C31BE719C600608B8B /* Create Contact  */,
+				8DB711C61BE71AE100608B8B /* UIView+Xib.swift */,
+				8DC818401BE97B05000510D9 /* AnimationView.swift */,
 				8D184FC11BE543EF0036D8F8 /* UI */,
 				8D6AE4331BE4129E00D74C26 /* Assets.xcassets */,
 				8D6AE4351BE4129E00D74C26 /* LaunchScreen.storyboard */,
 				8D6AE4381BE4129E00D74C26 /* Info.plist */,
 				8D6AE4301BE4129E00D74C26 /* Hackathon2015.xcdatamodeld */,
+				8DB711BF1BE70EB600608B8B /* TransitionAnimator.swift */,
 			);
 			path = Hackathon2015;
 			sourceTree = "<group>";
@@ -161,6 +190,15 @@
 				8D6AE44E1BE4129E00D74C26 /* Info.plist */,
 			);
 			path = Hackathon2015UITests;
+			sourceTree = "<group>";
+		};
+		8DB711C31BE719C600608B8B /* Create Contact  */ = {
+			isa = PBXGroup;
+			children = (
+				8DB711C11BE719C200608B8B /* CreateContactDisclaimerView.swift */,
+				8DB711C41BE719F800608B8B /* CreateContactDisclaimerView.xib */,
+			);
+			name = "Create Contact ";
 			sourceTree = "<group>";
 		};
 		C1D40CEA23F684781ABBECDC /* Pods */ = {
@@ -279,6 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB711C51BE719F800608B8B /* CreateContactDisclaimerView.xib in Resources */,
+				8D3E1E541BEC6CAD0028073C /* ChooseDestinationView.xib in Resources */,
 				8D6AE4371BE4129E00D74C26 /* LaunchScreen.storyboard in Resources */,
 				8D6AE4341BE4129E00D74C26 /* Assets.xcassets in Resources */,
 				8D6AE42F1BE4129E00D74C26 /* Main.storyboard in Resources */,
@@ -354,13 +394,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D184FC51BE5598F0036D8F8 /* CreateMentorViewController.swift in Sources */,
+				8D82DF7A1BE684A200B49CBE /* UserProfileViewController.swift in Sources */,
 				8D6AE42C1BE4129E00D74C26 /* ViewController.swift in Sources */,
+				8DB711C71BE71AE100608B8B /* UIView+Xib.swift in Sources */,
+				8DB711C91BE71F0200608B8B /* DesignableView.swift in Sources */,
+				8DB711BE1BE70C3000608B8B /* CreateContactViewController.swift in Sources */,
 				8D6AE4321BE4129E00D74C26 /* Hackathon2015.xcdatamodeld in Sources */,
+				8DB711C21BE719C200608B8B /* CreateContactDisclaimerView.swift in Sources */,
+				8D82DF7C1BE684AB00B49CBE /* ContactProfileViewController.swift in Sources */,
 				8D5B0BA91BE51825005EC9AE /* UnderlineButton.swift in Sources */,
+				8D6BD8A01BEC6C3200F21E4C /* ChooseDestinationView.swift in Sources */,
 				8D184FC31BE543FA0036D8F8 /* DesignableImageView.swift in Sources */,
+				8DB711C01BE70EB600608B8B /* TransitionAnimator.swift in Sources */,
+				8DC818411BE97B05000510D9 /* AnimationView.swift in Sources */,
 				8D6AE42A1BE4129E00D74C26 /* AppDelegate.swift in Sources */,
-				8DF929941BE57BA700ED5BFB /* Contact.swift in Sources */,
+				8D82DF7E1BE684EE00B49CBE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
