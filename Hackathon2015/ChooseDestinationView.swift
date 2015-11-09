@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ChooseDestinationView: AnimationView {
+class ChooseDestinationView: CreateContactOnboardingView {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var amAContactButton: UnderlineButton!
     @IBOutlet weak var lookingForAContactButton: UnderlineButton!
+    
+    var onContactSelectedHandler: (() -> ())?
+    var onNeedContactSelectedHandler: (() -> ())?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,6 +23,18 @@ class ChooseDestinationView: AnimationView {
         animationViews.append(titleLabel)
         animationViews.append(amAContactButton)
         animationViews.append(lookingForAContactButton)
+    }
+    
+    @IBAction func amAContactButtonTapped(sender: AnyObject) {
+        if let handler = onContactSelectedHandler {
+            handler()
+        }
+    }
+    
+    @IBAction func lookingForAContactButtonTapped(sender: AnyObject) {
+        if let handler = onNeedContactSelectedHandler {
+            handler()
+        }
     }
     
     override func pointInside(point: CGPoint, withEvent event: UIEvent?) -> Bool {

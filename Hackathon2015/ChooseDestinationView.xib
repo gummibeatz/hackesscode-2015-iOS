@@ -25,6 +25,9 @@
                     <state key="normal" title="a contact">
                         <color key="titleColor" red="0.063486426770000007" green="0.063486426770000007" blue="0.063486426770000007" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="amAContactButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="XVA-kZ-deW"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHi-pC-zf8" customClass="UnderlineButton" customModule="Hackathon2015" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="171" width="219" height="41"/>
@@ -33,6 +36,9 @@
                     <state key="normal" title="looking for a contact">
                         <color key="titleColor" red="0.063486426770000007" green="0.063486426770000007" blue="0.063486426770000007" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="lookingForAContactButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="HfM-vs-8qN"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>

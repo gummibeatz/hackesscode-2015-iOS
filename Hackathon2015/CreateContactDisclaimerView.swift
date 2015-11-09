@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateContactDisclaimerView: AnimationView {
+class CreateContactDisclaimerView: CreateContactOnboardingView {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bodyLabel: UILabel!
@@ -23,14 +23,17 @@ class CreateContactDisclaimerView: AnimationView {
     }
 
     @IBAction func continueButtonTapped(sender: AnyObject) {
-        animateOut()
+        if let handler = onContinueSelectedHandler {
+            handler()
+        }
     }
     
     override func pointInside(point: CGPoint, withEvent event: UIEvent?) -> Bool {
-        if CGRectContainsPoint(bounds, point) || CGRectContainsPoint(continueButton.frame, point) {
+        let buttonFrame = CGRectOffset(continueButton.frame, 0, 0)
+        print("point: \(point), frame: \(buttonFrame)")
+        if CGRectContainsPoint(bounds, point) || CGRectContainsPoint(buttonFrame, point) {
             return true
         }
         return false
     }
-    
 }

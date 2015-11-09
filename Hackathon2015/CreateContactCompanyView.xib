@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CreateContactCompanyView" customModule="Hackathon2015" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="542" height="464"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI1-2h-KbF">
+                    <rect key="frame" x="55" y="100" width="432" height="50.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where do you work?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6y-HE-HCw">
+                    <rect key="frame" x="55" y="151" width="432" height="29"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="eg. Software Engineer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9c9-GU-o85" userLabel="Job Title Text Field">
+                    <rect key="frame" x="55" y="188" width="432" height="30"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardAppearance="alert"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Company name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fLo-ap-MJi">
+                    <rect key="frame" x="55" y="188" width="432" height="30"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardAppearance="alert"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLG-Ij-8yI" customClass="UnderlineButton" customModule="Hackathon2015" customModuleProvider="target">
+                    <rect key="frame" x="55" y="284" width="99" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="continue ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="continueButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="sxq-y3-kqL"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your title?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-tW-8hs" userLabel="Body Label 2">
+                    <rect key="frame" x="55" y="151" width="432" height="29"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9c9-GU-o85" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="0Qw-3D-3V7"/>
+                <constraint firstAttribute="trailing" secondItem="9c9-GU-o85" secondAttribute="trailing" constant="55" id="3UQ-gu-sh3"/>
+                <constraint firstItem="OLG-Ij-8yI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="89w-g3-0Rb"/>
+                <constraint firstAttribute="trailing" secondItem="Z6y-HE-HCw" secondAttribute="trailing" constant="55" id="DNp-E3-Adc"/>
+                <constraint firstAttribute="trailing" secondItem="dI1-2h-KbF" secondAttribute="trailing" constant="55" id="KHB-Xf-eCu"/>
+                <constraint firstItem="Z6y-HE-HCw" firstAttribute="top" secondItem="dI1-2h-KbF" secondAttribute="bottom" id="Shf-Dq-cr0"/>
+                <constraint firstItem="9c9-GU-o85" firstAttribute="top" secondItem="gdn-tW-8hs" secondAttribute="bottom" constant="8" id="TTN-aI-rVv"/>
+                <constraint firstItem="dI1-2h-KbF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="bIX-Zx-lRz"/>
+                <constraint firstAttribute="trailing" secondItem="fLo-ap-MJi" secondAttribute="trailing" constant="55" id="cZq-dv-pTW"/>
+                <constraint firstItem="OLG-Ij-8yI" firstAttribute="top" secondItem="fLo-ap-MJi" secondAttribute="bottom" constant="66" id="di8-26-GHG"/>
+                <constraint firstItem="gdn-tW-8hs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="gnM-3O-3ca"/>
+                <constraint firstItem="gdn-tW-8hs" firstAttribute="top" secondItem="dI1-2h-KbF" secondAttribute="bottom" id="jSM-rl-dzM"/>
+                <constraint firstItem="Z6y-HE-HCw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="lRD-pm-So0"/>
+                <constraint firstAttribute="trailing" secondItem="gdn-tW-8hs" secondAttribute="trailing" constant="55" id="mCj-3m-Oaq"/>
+                <constraint firstItem="fLo-ap-MJi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="oUq-lx-Z5R"/>
+                <constraint firstItem="dI1-2h-KbF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="tgA-ir-kBm"/>
+                <constraint firstItem="fLo-ap-MJi" firstAttribute="top" secondItem="Z6y-HE-HCw" secondAttribute="bottom" constant="8" id="y22-ml-28L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="body2Label" destination="gdn-tW-8hs" id="l03-3n-djd"/>
+                <outlet property="bodyLabel" destination="Z6y-HE-HCw" id="OmC-XQ-csw"/>
+                <outlet property="companyTextField" destination="fLo-ap-MJi" id="mjL-Fu-os5"/>
+                <outlet property="continueButton" destination="OLG-Ij-8yI" id="anH-1x-5j5"/>
+                <outlet property="jobTitleTextField" destination="9c9-GU-o85" id="3zX-e4-MnT"/>
+                <outlet property="titleLabel" destination="dI1-2h-KbF" id="VhM-oS-XNM"/>
+            </connections>
+            <point key="canvasLocation" x="347" y="402"/>
+        </view>
+    </objects>
+</document>
